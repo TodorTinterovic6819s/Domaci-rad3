@@ -1,0 +1,165 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    background: url(../Domaci\ rad3/background.jpg)
+
+
+}
+
+.container
+{
+   width: 70%;
+   margin: 0 auto;
+}
+.header
+{
+   padding: 0px;
+    width: 100%;
+    background-color:darkgrey;
+    
+
+    
+}
+.tekst {
+
+    color:wheat;
+}
+.header img
+{
+    width: 150px;
+    height: 125px;
+    margin-top: 10px;
+
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul li
+{
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 35px;
+    font-size: 28px;
+    background-color: #3D4255;
+    margin: 0px;
+    
+
+    
+  
+}
+
+ul li a
+{
+    display:block;
+    text-decoration: none;
+    
+    
+}
+ul li a:hover
+{
+    background-color:white;
+}
+
+.glavniDeo
+{
+    padding: 25px;
+    margin-top: 0px;
+    background-color: white;
+  
+   
+
+}
+
+
+.levaStrana
+{
+    vertical-align: top;
+    width:15%;
+    display: inline-block;
+   
+   
+    
+}
+.moto {
+
+    text-align: center;
+    margin-bottom: 0px;
+    color: teal;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.desnaStrana
+{
+    vertical-align: top;
+    display: inline-block;
+    width: 10%;
+    
+}
+.centralniDeo
+{
+    width: 60%;
+   display: inline-block;
+}
+
+.centralniDeo .proizvodi
+{
+    width: 35%;
+    display: inline-block;
+    border-radius: 30px;
+    background-color:whitesmoke; 
+    margin: 10px;
+    padding: 5px;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+.cena{
+    
+color: lightgreen;
+    
+}
+
+.podaci {
+
+    display: inline-block;
+    width: 30px;
+    margin: 10px;
+    
+}
+.centralniDeo img
+{
+    width: 100%;
+    
+}
+
+.levaStrana img {
+
+    width: 125%;
+}
+input {
+
+    line-height: 20px;
+}
+.footer
+{
+    text-align: center;
+    height: 25px;
+    font-size: 20px;
+    background-color: black;
+    color:blue;
+}
+
+button {
+
+    width: 100px;
+    height: 25px;
+}
